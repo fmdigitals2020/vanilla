@@ -764,6 +764,10 @@ footer{
     padding-top: 130px;
 }
 
+.footer-inside{
+    padding-top: 32px;
+}
+
 footer .footer-wrapper p{
     font-size: 16px;
     font-weight: 400;
@@ -804,7 +808,98 @@ footer .footer-box h4{
     font-family: 'Jost', sans-serif;    
 }
 
+footer .footer-bottoms{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 /* FOOTER */
+
+/* INDEX END */
+
+/* DISCLAIMER PAGE */
+
+.disclaimer-grid{
+    background: #F8F8F8;
+}
+
+.disclaimer-grid .disclaimer-con{
+    padding: 33px 0 45px 0;
+}
+
+.disclaimer-grid .content h2{
+    font-family: 'Jost', sans-serif;    
+    font-size: 28px;
+    font-weight: 700;
+    color : #FE7920;
+    line-height: 42px;
+    margin: 0;
+    text-align: center;
+}
+
+.disclaimer-grid .content{
+    padding-left: 65px;
+}
+
+.disclaimer-grid .content h2 span{
+    background-color: #FE7920;
+    color : #fff;
+    padding: 4px;
+}
+
+.disclaimer-grid .content p{
+    font-size: 21px;
+    font-weight: 400;
+    color: #000;
+    line-height: 30px;
+    font-family: 'Inter', sans-serif;
+    padding-top: 25px;
+}
+
+/* THIRD PARTY SECTION */
+
+.third-partysec{
+    overflow-x: hidden;
+    padding: 70px 0 20px 0;
+}
+
+.third-partysec .row{
+    width: 100vw;
+    margin-top: 75px;
+}
+
+.third-partysec h2{
+    font-family: 'Jost', sans-serif;    
+    font-size: 28px;
+    font-weight: 700;
+    background: #FE7920;
+    border-radius: 10px;
+    display: inline-block;
+    margin: auto;
+    color: #fff;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+.third-partysec p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    font-family: 'Inter', sans-serif;
+}
+
+/* THIRD PARTY SECTION */
+
+/* GRID AREA */
+
+.gridd{
+    margin-bottom: 22px;
+}
+
+.gridd .content{
+    padding-left: 7px;
+}
 
 
 
@@ -1029,6 +1124,54 @@ footer .footer-box h4{
     footer .footer-wrapper .footer-logo,footer .footer-wrapper p, footer .footer-box h4{
         text-align: center;
     }
+
+    footer .footer-bottoms{
+        justify-content: center;
+        margin-top: 25px;
+        padding-bottom: 16px;
+    }
+
+    footer .footer-bottoms a img{
+        width: 110px;
+    }
+
+    footer .footer-bottoms .social-icons{
+        display: none;
+    }
+
+    .disclaimer-grid .picture img{
+        width: 75%;
+        margin: auto;
+        display: inherit;
+    }
+
+    .disclaimer-grid .content h2 span {
+        background-color: transparent;
+        color: #FE7920;
+    }
+
+    .disclaimer-grid .content{
+        margin-top: 23px;
+        padding-left: 0;
+    }
+
+    .third-partysec{
+        padding: 35px 0;
+    }
+
+    .third-partysec .row{
+        margin-top: 30px;
+        width: auto;
+    }
+
+    .third-partysec p,.disclaimer-grid .content p{
+        font-size: 17px;
+    }
+
+    .third-partysec .picture{
+        text-align: right;
+        width: 100vw;
+    }
 }
 
 @media(max-width:768px){
@@ -1194,7 +1337,7 @@ footer .footer-box h4{
     .ingredients .top-area p{
         font-size: 19px;
         line-height: 24px;
-        padding: 0 50px;
+        padding: 0 25px;
         margin-top: 10px;
     }
 
@@ -1409,8 +1552,46 @@ footer .footer-box h4{
         width: 126px;
     }
 
+    footer .footer-bottoms a img{
+        width: 80px;
+    }
+
     footer .footer-wrapper p{
         margin-bottom: 40px;
+    }
+
+    .disclaimer-grid .content h2{
+        line-height: 34px;
+        font-size: 25px;
+    }
+
+    .disclaimer-grid .disclaimer-con{
+        padding: 33px 0;
+    }
+
+    .disclaimer-grid .content p{
+        padding-top: 20px;
+    }
+
+    .third-partysec .picture img{
+        width: 70%;
+    }
+
+    .third-partysec h2{
+        font-size: 25px;
+    }
+
+    .third-partysec .col-lg-5{
+        padding: 0;
+        margin-top: 12px;
+    }
+
+    .gridd .content{
+        margin-top: 0;
+    }
+
+    .third-partysec .picture{
+        width: auto;
     }
     
 
