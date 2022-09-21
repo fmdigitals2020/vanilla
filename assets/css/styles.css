@@ -1,0 +1,1418 @@
+/* Global Styles */
+
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+
+a{
+    text-decoration: none !important;
+    display: inline-block;
+}
+
+/* Container Styles */
+
+.container{
+    max-width: 1336px !important;
+}
+
+/* Container Styles */
+
+/* HEADER */
+
+header .header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+header .header-wrapper li{
+    padding-left: 35px;
+}
+
+header .header-wrapper li a{
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+    font-family: 'Inter', sans-serif;
+    transition: 0.4s ease-in-out;
+}
+
+header .header-wrapper li a::after{
+    content: "";
+    height: 2px;
+    width: 0;
+    display: block;
+    background-color: #FF802C;
+    transition: 0.3s ease-in-out;
+}
+
+header .header-wrapper li a:hover{
+    color: #FF802C;
+}
+
+header .header-wrapper li a:hover:after{
+    width: 100%;
+}
+
+header .toggle-menu {
+    cursor: pointer;
+}
+
+header .toggle-menu span{
+    display: block;
+    width: 35px;
+    height: 3px;
+    background: #F67016;
+    margin-bottom: 6px;
+}
+
+/* HEADER */
+
+/* HOMEPAGE BANNER */
+
+.homepage-banner .banner-content{
+    background: linear-gradient(271.38deg, #F9B13E 21.66%, #F77017 84.39%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    padding: 48px 74px;
+}
+
+.homepage-banner .banner-content h2{
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+}
+
+.homepage-banner .banner-content h3{
+    font-weight: 700;
+    font-size: 30px;
+    padding-top: 22px;
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+.homepage-banner .banner-content p{
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+}
+
+.homepage-banner .banner-content a{
+    padding: 17px 35px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    color: #FE7509;
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: 700;
+    border: 1px solid #fff;
+    transition: 0.3s ease-in-out;
+}
+
+.homepage-banner .banner-content a:hover{
+    background-color: transparent;
+    color: #fff;
+}
+
+/* HOMEPAGE BANNER */
+
+/* ABOUT US */
+
+.about-us{
+    margin-top: 40px;
+}
+
+.about-us .aboutus-content{
+    background: rgba(255, 222, 190, 0.24);
+    border-radius: 50px 0px;
+    font-family: 'Jost', sans-serif;
+    padding: 16px 77px;
+}
+
+.about-us .aboutus-content .picture,.about-us .aboutus-content h4{
+    margin-top: 30px;
+}
+
+.about-us .aboutus-content h2{
+    font-size: 45px;
+    font-weight: 700;
+    color: #FE6601;
+    text-align: center;
+}
+
+.about-us .aboutus-content .picture img{
+    width: 100%;
+}
+
+.about-us .aboutus-content .padding-box{
+    padding-left: 40px;
+}
+
+.about-us .aboutus-content h4,p{
+    font-family: 'Inter', sans-serif;
+    color: #000;
+}
+
+.about-us .aboutus-content h4{
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.about-us .aboutus-content p{
+    line-height: 28px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.about-us .aboutus-content span{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.about-us .aboutus-content a{
+    padding: 12px 48px;
+    background: #FE6601;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 11px;
+}
+
+.about-us .aboutus-content a img{
+    margin-left: 19px;
+}
+
+/* ABOUT US */
+
+/* LOVE EXIPURE */
+
+.love-exipure{
+    margin-top: 40px;
+}
+
+.love-exipure .content{
+    background-image: url(../img/love-exipure.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 57px 68px;
+    font-family: 'Josefin Sans', sans-serif;
+    border-radius: 20px;
+}
+
+.love-exipure .content h2{
+    font-size: 50px;
+    font-weight: 700;
+    color: #000000;
+    margin: 0;
+}
+
+.love-exipure .content h2 span{
+    color: #2C634E;
+}
+
+.love-exipure .content p{
+    font-size: 17px;
+    font-weight: 500;
+    color: #000;
+    line-height: 23px;
+    padding-top: 25px;
+}
+
+.love-exipure .content .actions a{
+    padding: 12px;
+    background: #FE6601;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 22px;
+    margin-left: 30px;
+}
+
+/* LOVE EXIPURE */
+
+/* INGREDIENTS */
+
+.ingredients{
+    margin-top: 60px;
+}
+
+.ingredients .ingredients-content{
+    font-family: 'Inter', sans-serif;
+    margin-top: 25px;
+    padding-right: 52px;
+}
+
+.ingredients .top-area {
+    text-align: center;
+}
+
+.ingredients .top-area h2{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #DE6302;
+}
+
+.ingredients .top-area p{
+    font-size: 22px;
+    font-weight: 400;
+    color: #000;
+}
+
+.ingredients .ingredients-content .ingredients-box{
+    padding: 15px 39px;
+    background: #FF802C;
+    border-radius: 15px;
+    margin-bottom: 27px;
+}
+
+.ingredients .ingredients-box .picture{
+    margin-right: 32px;
+}
+
+.ingredients .ingredients-box h4,.ingredients .ingredients-box span{
+    font-size: 24px;
+    margin: 0;
+    color: #fff;
+}
+
+.ingredients .ingredients-box h4{
+    font-weight: 700;
+}
+
+.ingredients .ingredients-box span{
+    font-weight: 400;
+}
+
+.ingredients .ingredients-box .flexarea{
+    display: flex;
+    align-items: center;
+}
+
+.ingredients .row .col-lg-6{
+    padding-left: 53px;
+}
+
+/* INGREDIENTS */
+
+/* SATISFIED CUSTOMERS */
+
+.satisfied-customers{
+    position: relative;
+    margin-top: 28px;
+}
+
+.satisfied-customers .satisfied-content{
+    background: #EBEAEA;
+    border-radius: 30px;
+    padding: 22px 74px;
+    padding-bottom: 120px;
+    font-family: 'Inter', sans-serif;
+}
+
+.satisfied-customers .satisfied-content h2{
+    font-size: 45px;
+    font-weight: 700;
+    color: #000;
+    font-family: 'Jost', sans-serif;
+    text-align: center;
+    line-height: 54px;
+}
+
+.satisfied-customers .satisfied-box{
+    padding: 32px 44px;
+    background: #FFF7EF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.satisfied-customers .satisfied-box h3{
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 13px;
+}
+
+.satisfied-customers .satisfied-box span,
+.satisfied-customers .satisfied-box p{
+    font-size: 16px;
+}
+
+.satisfied-customers .satisfied-box span{
+    font-weight: 700;
+    display: inline-block;
+}
+
+.satisfied-customers .satisfied-box .meta{
+    height: 190px;
+    margin-top: 22px;
+}
+
+.satisfied-customers .satisfied-box p{
+    font-weight: 500;
+}
+
+.satisfied-customers .slick-slide{
+    background: #FFF7EF;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+.satisfied-customers .slick-slide.slick-center .satisfied-box{
+    background-color: #fff;
+    padding:62px 45px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.satisfied-customers .slick-slider{
+    position: static;
+    margin-top: 17px;
+}
+
+.satisfied-customers .slick-prev,
+.satisfied-customers .slick-next{
+    height: 48px;
+    width: 48px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    top: 90%;
+}
+
+.satisfied-customers .slick-prev::before,.satisfied-customers .slick-next::before{
+    content: "";
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 34px;
+    height: 19px;
+    z-index: 9;
+}
+
+.satisfied-customers .slick-prev::before{
+    background-image: url(../img/slider-arrowl.svg);
+}
+
+.satisfied-customers .slick-next::before{
+    background-image: url(../img/slider-arrowr.svg);
+}
+
+.satisfied-customers .slick-prev{
+    left: 50%;
+}
+
+.satisfied-customers .slick-next{
+    left: 55%;
+}
+
+.satisfied-customers .slick-track{
+    display: flex;
+    align-items: center;
+}
+
+/* SATISFIED CUSTOMERS */
+
+/* RECOMMEND SUPPLEMENT */
+
+.recommend-supplement .content{
+    background: #F7EFE8;
+    border-radius: 20px;
+    margin-top: 23px;
+    padding: 40px 64px;
+}
+
+.recommend-supplement .content h2{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Jost', sans-serif;
+    color: #FE6601;
+    line-height: 55px;
+    text-align: center;
+}
+
+.recommend-supplement .grid-area{
+    margin-top: 22px;
+}
+
+.recommend-supplement .grid-area .supplement-box{
+    background: #F4F4F4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 28px 20px 15px 20px;
+}
+
+.recommend-supplement .supplement-box h4,
+.recommend-supplement .supplement-box span,
+.recommend-supplement .meta{
+    font-family: 'Inter', sans-serif;
+}
+
+.recommend-supplement .supplement-box h4{
+    font-size: 26px;
+    font-weight: 700;
+    color: #000;
+    margin: 0;
+}
+
+.recommend-supplement .supplement-box span{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 6px;
+    color: #000;
+}
+
+.recommend-supplement .supplement-box a{
+    font-size: 17px;
+    font-weight: 400;
+    color: #fff;
+    background: #FE6601;
+    border-radius: 30px;
+    padding: 7px 19px;
+}
+
+.recommend-supplement .supplement-box .picture{
+    height: 341px;
+}
+
+.recommend-supplement .supplement-box .price{
+    font-size: 24px;
+    font-weight: 400;
+    color: #000;
+}
+
+.recommend-supplement .supplement-box a img{
+    width: 16px;
+    margin-right: 4px;
+}
+
+.recommend-supplement .supplement-box .flexarea{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
+.recommend-supplement .supplement-box .price{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.recommend-supplement .col-md-6:nth-child(n+2) .picture img{
+    width: 100%;
+}
+
+.recommend-supplement .meta{
+    font-size: 32px;
+    font-weight: 700;
+    color: #000;
+    padding-top: 50px;
+    text-align: center;
+}
+
+/* RECOMMEND SUPPLEMENT */
+
+/* BRANDS */
+
+.brands{
+    margin-top: 56px;
+}
+
+.brands .top-area h2{
+    font-family: 'Jost', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    color: #FE6601;
+    text-align: center;
+    margin: 0;
+}
+
+.brands .top-area h2 span{
+    background-color: #FE6601;
+    color: #fff;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.brands .row{
+    margin-top: 53px;
+}
+
+.brands .brands-box{
+    padding: 8px 32px;
+    background: rgba(197, 193, 193, 0.13);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    height: 90px;
+    margin-bottom: 25px;
+}
+
+.brands .brands-box h4{
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    color: #1B1B1B;
+}
+
+.brands .brands-box img{
+    margin-right: 18px;
+}
+
+.brands .col-lg-4:nth-child(1) .brands-box,
+.brands .col-lg-4:nth-child(5) .brands-box{
+    padding-left: 45px;
+}
+
+/* BRANDS */
+
+/* NEWLETTER */
+
+.newsletter .newsletter-content{
+    background: linear-gradient(94.43deg, #FC6C0D 35.48%, #ED9E66 107.64%);
+    border-radius: 20px;
+    padding: 42px 60px;
+    position: relative;
+    top: 80px;
+    margin: 0 60px;
+}
+
+.newsletter .newsletter-content h2{
+    font-size: 36px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.newsletter .newsletter-content h2,
+.newsletter .newsletter-content a{
+    font-family: 'Jost', sans-serif;    
+}
+
+.newsletter .newsletter-content .form-text{
+    height: 75px;
+    position: relative;
+}
+
+.newsletter .newsletter-content .form-control{
+    background: #F1F1F1;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    height: 100%;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-indent: 20px;
+}
+
+.newsletter .form-control::placeholder{
+    color: #000;
+}
+
+.newsletter .newsletter-content a{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    padding: 13px 20px;
+    color: #fff;
+    background: #FE6E02;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.newsletter .row{
+    align-items: center;
+}
+
+/* NEWLETTER */
+
+/* CONTACT US */
+
+.contact-us{
+    margin-top: 28px;
+}
+
+.contact-us .contact-info{
+    background: #F5F4FA;
+    border-radius: 15px;
+    font-family: 'Inter', sans-serif;
+}
+
+.contact-us h2{
+    font-family: 'Jost', sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    color: #fff;
+    padding-bottom: 35px;
+}
+
+.contact-us .form-area{
+    background: linear-gradient(130.45deg, #FC6C0C 32.24%, #ED9E66 102.41%);
+    border-radius: 15px;
+    clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
+    height: 100%;
+    border-radius: 10px;
+    padding: 55px 100px 55px 50px;
+}
+
+.contact-us .form-box{
+    position: relative;
+    padding-left: 0;
+}
+
+.contact-us .form-box::before{
+    background: rgba(228, 137, 123, 0.43);
+    border-radius: 15px;
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
+    left: 0;
+}
+
+.contact-us .form-box input::placeholder,
+.contact-us .form-box textarea::placeholder{
+    color: #000;
+}
+
+.contact-us .form-box input,
+.contact-us .form-box textarea{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    text-indent: 20px;
+    font-size: 16px;
+}
+
+.contact-us .form-box input{
+    background: #FFFFFF;
+    margin-bottom: 16px;
+    height: 67px;
+    color: #000;
+}
+
+.contact-us .form-box textarea{
+   padding-top: 20px;
+   resize: none;
+   margin-bottom: 12px;
+}
+
+.contact-us .form-box a{
+    display: block;
+    background-color: #000;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: 'Jost', sans-serif;
+    color: #fff;
+    padding: 22px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.contact-us .address-contact .circle{
+    height: 49px;
+    width: 49px;
+    border-radius: 50%;
+    border: 1.5px solid #F38B45;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-us .address-contact h4{
+    font-size: 17px;
+    font-weight: 500;
+    padding-left: 15px;
+    margin: 0;
+}
+
+.contact-us .address-contact > div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+/* CONTACT US */
+
+/* FOOTER */
+
+footer{
+    background: #2D2E37;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    padding-top: 130px;
+}
+
+footer .footer-wrapper p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #fff;
+}
+
+footer .footer-wrapper .row{
+    padding-top: 25px;
+}
+
+footer .footer-wrapper li{
+    padding-bottom: 5px;
+    margin-bottom: 6px;
+    list-style: none;
+}
+
+footer .footer-wrapper ul{
+    padding: 0;
+}
+
+footer .footer-wrapper li,footer .footer-wrapper li a,
+footer .footer-box h4{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+footer .footer-wrapper li a{
+    color : #fff;
+}
+
+footer .footer-wrapper li img{
+    margin-right: 22px;
+}
+
+footer .footer-box h4{
+    font-weight: 700;
+    font-family: 'Jost', sans-serif;    
+}
+
+/* FOOTER */
+
+
+
+/* RESPONSIVE */
+
+@media(max-width:992px){
+
+    .container{
+        max-width: 95% !important;
+    }
+
+    header .header-wrapper{
+        position: relative;
+    }
+
+    header .header-wrapper .navigation-items{
+        opacity: 0;
+        visibility: hidden;
+        top: 100%;
+        left: -1000px;
+        right: 0;
+        position: absolute;
+        bottom: 0;
+        transition: 0.3s ease-in-out;
+    }
+
+    header .header-wrapper .logo img{
+        width: 140px;
+    }
+
+    header .header-wrapper .navigation-items li{
+        margin-bottom: 15px;
+        padding-left: 25px;
+    }
+
+    header .header-wrapper li a{
+        color: #fff;
+        font-size: 17px;
+    }
+
+    header .header-wrapper .navigation-items ul{
+        flex-direction: column;
+        padding-top: 20px;
+        background-color: #FE6601;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        border-radius: 8px;
+    }
+
+    header .navigation-items.active{
+        opacity: 1;
+        visibility: visible;
+        left: 0;
+        z-index: 9;
+        transition: 0.3s ease-in-out;
+    }
+
+    .homepage-banner .banner-content h2{
+        font-size: 42px;
+        line-height: 44px;
+    }
+
+    .homepage-banner .banner-content h3{
+        font-size: 22px;
+    }
+
+    .homepage-banner .banner-content p{
+        font-size: 18px;
+    }
+
+    .homepage-banner .banner-content a{
+        margin-top: 30px;
+        font-size: 17px;
+        padding: 14px 35px;
+    }
+
+    .homepage-banner .banner-content .picture{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .homepage-banner .row{
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .about-us .aboutus-content{
+        padding: 15px 40px;
+    }
+
+    .about-us .aboutus-content .padding-box{
+        padding-left: 0;
+    }
+
+    .about-us .aboutus-content h2{
+        font-size: 40px;
+    }
+
+    .love-exipure .content {
+        padding: 30px 48px;
+    }
+
+    .love-exipure .content h2{
+        font-size: 45px;
+    }
+
+    .ingredients .ingredients-box .picture img{
+        width: 90px;
+    }
+
+    .ingredients .ingredients-box h4, .ingredients .ingredients-box span{
+        font-size: 21px;
+    }
+
+    .ingredients .top-area h2{
+        margin: 0;
+    }
+
+    .ingredients .top-area p{
+        font-size: 21px;
+    }
+
+    .satisfied-customers .satisfied-content h2{
+        font-size: 42px;
+    }
+
+    .satisfied-customers .slick-prev{
+        left: 45%;
+    }
+
+    .satisfied-customers .slick-next{
+        left: 52%;
+    }
+
+    .recommend-supplement .content h2{
+        font-size: 38px;
+        line-height: 48px;
+    }
+
+    .recommend-supplement .supplement-box{
+        margin-bottom: 20px;
+    }
+
+    .recommend-supplement .supplement-box h4{
+        font-size: 21px;
+    }
+
+    .recommend-supplement .supplement-box span{
+        font-size: 17px;
+    }
+
+    .recommend-supplement .meta{
+        padding-top: 35px;
+        font-size: 26px;
+    }
+
+    .recommend-supplement .content{
+        padding: 35px;
+    }
+
+    .brands .top-area h2{
+        font-size: 32px;
+    }
+
+    .brands .brands-box h4{
+        font-size: 20px;
+    }
+
+    .contact-us .info-box{
+        padding: 20px;
+        background: #F5F4FA;
+        margin: 22px;
+        border-radius: 15px;
+    }
+
+    .contact-us .info-box .picture{
+        text-align: center;
+    }
+
+    .contact-us .form-area{
+        clip-path: none;
+        background: transparent;
+        padding: 30px;
+    }
+
+    .contact-us .contact-info{
+        background: linear-gradient(160.77deg, #FC6C0C 34.8%, #EF9759 102.58%);
+    }
+
+    .contact-us .form-box input{
+        height: 55px;
+    }
+
+    .contact-us .form-box a{
+        padding: 16px 0;
+    }
+
+    .contact-us .form-box::before{
+        display: none;
+    }
+
+    .newsletter .newsletter-content{
+        position: static;
+        margin-top: 30px;
+        text-align: center;
+        margin: 0;
+        margin-top: 30px;
+        padding: 30px;
+    }
+
+    footer .col-lg-2{
+        display: none;
+    }
+
+    footer .footer-wrapper li, footer .footer-wrapper li a, footer .footer-box h4{
+        font-size: 18px;
+    }
+
+    footer .footer-wrapper li img{
+        width: 20px;
+    }
+
+    footer .footer-wrapper .footer-logo,footer .footer-wrapper p, footer .footer-box h4{
+        text-align: center;
+    }
+}
+
+@media(max-width:768px){
+
+    .brands .top-area h2 span{
+        background-color: transparent;
+        color: #FE6601;
+    }
+
+    .satisfied-customers .satisfied-content h2 br{
+        display: none;
+    }
+
+    .satisfied-customers .satisfied-content{
+        padding: 50px;
+        padding-bottom: 90px;
+    }
+
+    .satisfied-customers .satisfied-box .meta{
+        height: auto;
+    }
+
+    .recommend-supplement .grid-area .picture {
+        background-color: #fff;
+        border-radius: 20px;
+        padding: 30px 20px;
+        text-align: center;
+    }
+
+    .recommend-supplement .supplement-box .price{
+        text-align: right;
+        font-size: 20px;
+    }
+
+    .recommend-supplement .supplement-box h4{
+        margin-top: 20px;
+    }
+}
+
+@media(max-width:576px){
+
+    .container {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    header .header-wrapper .logo img{
+        width: 105px;
+    }
+
+    .homepage-banner .banner-content .picture img{
+        width: 100%;
+    }
+
+    .homepage-banner .banner-content .picture{
+        margin-bottom: 20px;
+    }
+
+    .homepage-banner .banner-content{
+        padding: 25px;
+    }
+
+    .homepage-banner .banner-content h2{
+        font-size: 35px;
+    }
+
+    .homepage-banner .banner-content h3{
+        padding-top: 10px;
+    }
+
+    .homepage-banner .banner-content a{
+        margin-top: 16px;
+        padding: 12px 17px;
+        font-size: 16px;
+    }
+
+    .about-us .aboutus-content h2{
+        font-size: 28px;
+    }
+
+    .about-us .aboutus-content{
+        padding: 20px 12px;
+    }
+
+    .about-us .aboutus-content .picture{
+        margin-top: 10px;
+    }
+
+    .about-us .aboutus-content .padding-box{
+        padding-left: 12px;
+        padding-top: 17px;
+    }
+
+    .about-us .aboutus-content .picture, .about-us .aboutus-content h4{
+        margin-top: 15px;
+    }
+
+    .about-us .aboutus-content a{
+        padding: 11px 20px;
+        font-size: 19px;
+    }
+
+    .love-exipure .content{
+        padding: 20px 15px;
+    }
+
+    .love-exipure .content h2{
+        font-size: 37px;
+        line-height: 40px
+    }
+
+    .love-exipure .content p{
+        padding-top: 16px;
+        font-size: 16px;
+    }
+
+    .love-exipure .content .actions a{
+        margin: 0;
+    }
+
+    .brands .top-area h2{
+        font-size: 26px;
+    }
+
+    .brands{
+        margin-top: 44px;
+    }
+
+    .brands .row{
+        margin-top: 30px;
+    }
+
+    .brands .brands-box{
+        flex-direction: column;
+        padding: 19px 25px;
+        height: auto;
+    }
+
+    .brands .brands-box h4{
+        font-size: 16px;
+        text-align: center;
+        height: 38px;
+    }
+
+    .brands .col-lg-4:nth-child(1) .brands-box, .brands .col-lg-4:nth-child(5) .brands-box{
+        padding-left: 25px;
+    }
+
+    .brands .brands-box img{
+        margin-right: 0;
+    }
+
+    .ingredients .ingredients-wrapper{
+        background: rgba(235, 236, 255, 0.5);
+        border-radius: 20px;
+        padding: 36px 19px;
+    }
+
+    .ingredients .top-area h2{
+        font-size: 28px;
+    }
+
+    .ingredients .top-area p{
+        font-size: 19px;
+        line-height: 24px;
+        padding: 0 50px;
+        margin-top: 10px;
+    }
+
+    .ingredients .row .col-lg-6{
+        padding-left: 0;
+    }
+
+    .ingredients .ingredients-content{
+        padding-right: 0;
+    }
+
+    .ingredients .slick-slide{
+        margin: 0 25px;
+    }
+
+    .ingredients{
+        margin-top: 33px;
+    }
+
+    .ingredients .ingredients-content .ingredients-box{
+        margin-bottom: 11px;
+        padding: 15px 8px;
+    }
+
+    .ingredients .ingredients-box .picture img{
+        width: 70px;
+    }
+
+    .ingredients .ingredients-box .picture{
+        margin-right: 9px;
+    }
+
+    .ingredients .slick-prev::before,.ingredients .slick-next::before{
+        content: "";
+        background-repeat: no-repeat;
+        background-position: center;
+        display: inline-block;
+        width: 9px;
+        height: 16px;
+    }
+
+    .ingredients .slick-prev{
+        left: 0;
+        z-index: 11;
+    }
+
+    .ingredients .slick-next{
+        right: 0;
+        z-index: 11;
+    }
+
+    .ingredients .slick-prev::before{
+        background-image: url(../img/arrow-slider.svg);
+    }
+
+    .ingredients .slick-next::before{
+        background-image: url(../img/arrowr-slider.svg);
+    }
+
+    .ingredients .slick-dots li button:before{
+        color: #DE6302 !important;
+        font-size: 12px;
+        opacity: 1;
+    }
+
+    .ingredients .slick-dots li{
+        margin: 0 !important;
+    }
+
+    .ingredients .slick-dots li.slick-active button:before {
+        opacity: 1 !important;
+        color: #DE6302;
+        border: 1px solid #DE6302;
+        border-radius: 50%;
+    }
+
+    .recommend-supplement .content h2{
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .recommend-supplement .content h2 br{
+        display: none;
+    }
+
+    .recommend-supplement .grid-area .picture{
+        background-color: #fff;
+        border-radius: 20px;
+        padding: 30px 20px;
+        height: auto;
+        text-align: center;
+    }
+
+    .recommend-supplement .supplement-box h4{
+        font-size: 21px;
+        padding-top: 10px;
+    }
+
+    .recommend-supplement .supplement-box span{
+        font-size: 17px;
+    }
+
+    .recommend-supplement .supplement-box a{
+        font-size: 14px;
+        padding: 5px 13px;
+        display: flex;
+        align-items: center;
+    }
+
+    .recommend-supplement .supplement-box a img{
+        width: 12px;
+    }
+
+    .recommend-supplement .supplement-box .price{
+        font-size: 21px;
+    }
+
+    .recommend-supplement .content{
+        padding: 16px;
+    }
+
+    .recommend-supplement .grid-area .supplement-box{
+        padding: 15px;
+        border-radius: 10px;
+    }
+
+    .satisfied-customers .satisfied-content{
+        padding: 31px 10px;
+        padding-bottom: 85px;
+    }
+
+    .satisfied-customers .satisfied-content h2{
+        font-size: 24px;
+        line-height: 27px;
+    }
+
+    .satisfied-customers .slick-slide{
+        margin-right: 0;
+        margin: 0 30px;
+    }
+
+    .satisfied-customers .slick-prev{
+        left: 37%;
+    }
+
+    .satisfied-customers .slick-next{
+        left: 57%;
+    }
+
+    .satisfied-customers .satisfied-box{
+        background-color: #fff;
+        padding: 13px 20px;
+    }
+
+    .contact-us h2{
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .contact-us .form-box input{
+        height: 50px;
+        font-size: 15px;
+    }
+
+    .contact-us .form-box a{
+        padding: 12px 0;
+        font-size: 20px;
+    }
+
+    .contact-us .info-box{
+        margin-top: 0;
+    }
+
+    .contact-us .info-box .picture img{
+        width: 100%;
+    }
+
+    .contact-us .address-contact .circle{
+        height: 40px;
+        width: 40px;
+    }
+
+    .contact-us .address-contact .circle img{
+        width: 18px;
+    }
+
+    .newsletter .newsletter-content{
+        padding: 15px;
+    }
+
+    .newsletter .newsletter-content h2{
+        font-size: 31px;
+    }
+
+    .newsletter .newsletter-content .form-text{
+        height: 52px;
+    }
+
+    .newsletter .newsletter-content .form-control{
+        text-indent: 5px;
+    }
+
+    .newsletter .newsletter-content a{
+        padding: 5px 12px;
+    }
+
+    footer{
+        padding-top: 30px;
+    }
+
+    footer .footer-wrapper .footer-logo img{
+        width: 126px;
+    }
+
+    footer .footer-wrapper p{
+        margin-bottom: 40px;
+    }
+    
+
+  
+}
